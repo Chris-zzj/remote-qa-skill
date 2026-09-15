@@ -1,0 +1,6 @@
+interface:
+  display_name: "离机邮件问答"
+  short_description: "首次确认会话收件邮箱，邮件附设备信息，后续复用并采纳先确认的回复"
+  default_prompt: "使用 $remote-qa 开启当前会话的离机问答；若尚未指定收件邮箱，请先询问我。"
+policy:
+  allow_implicit_invocation: true
